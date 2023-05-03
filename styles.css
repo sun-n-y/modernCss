@@ -1,16 +1,13 @@
-:root {
-  --spacing-sm: 8px;
-  --spacing-md: 16px;
-  --spacing-lg: 32px;
-  --spacing-xl: 64px;
+.box1 {
+  background: tomato;
+  height: 300px;
+  width: 40%;
+  float: left;
+  margin-right: 20px;
 }
-
-button {
-  padding: var(--spacing-lg);
-}
-
-@media screen and (max-width: 800px) {
-  button {
-    padding: var(--spacing-sm);
-  }
+.box2 {
+  background: olivedrab;
+  width: calc(60% - 20px);
+  height: 300px;
+  float: right;
 }
