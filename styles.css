@@ -1,13 +1,18 @@
 .box1 {
-  background: tomato;
-  height: 300px;
-  width: 40%;
-  float: left;
-  margin-right: 20px;
+  background-color: cyan;
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
 }
+
 .box2 {
-  background: olivedrab;
-  width: calc(60% - 20px);
-  height: 300px;
-  float: right;
+  background-color: magenta;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 100px);
+  /* margin-left: -100px;
+  margin-top: -50px; */
 }
