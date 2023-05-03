@@ -3,6 +3,12 @@
   --box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);
 }
 
+@media screen and (max-width: 800px) {
+  :root {
+    --brand-color: rgb(161, 16, 154);
+  }
+}
+
 button {
   background-color: var(--brand-color);
 }
